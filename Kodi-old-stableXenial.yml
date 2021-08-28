@@ -96,9 +96,9 @@ ingredients:
     - kodi-visualization-spectrum 	 	
     - kodi-visualization-waveform  	 	 	 	
     - xbmc-visualization-fishbmc  
-  dist: focal
+  dist: xenial
   sources: 
-    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
+    - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
   ppas:
     - team-xbmc/kodi-old
     - linux-schools/samba-latest
