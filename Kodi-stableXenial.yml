@@ -108,10 +108,15 @@ ingredients:
     - libva-glx1
     - libva-x11-1
     - libva1
+    - python-cryptodome
     - xbmc-visualization-fishbmc  
   dist: xenial
   sources: 
     - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
+    - deb http://archive.ubuntu.com/ubuntu/ xenial-backports main universe
+    - deb http://archive.ubuntu.com/ubuntu/ xenial-proposed main universe
+    - deb http://archive.ubuntu.com/ubuntu/ xenial-security main universe
+    - deb http://archive.ubuntu.com/ubuntu/ xenial-updates main universe
   ppas:
     - team-xbmc/ppa
     - linux-schools/samba-latest
