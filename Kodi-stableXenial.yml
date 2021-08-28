@@ -55,7 +55,7 @@ ingredients:
     - kodi-inputstream-adaptive
     #   - kodi-inputstream-mpd
     - kodi-inputstream-rtmp
-    - kodi-inputstream-smoothstream
+    #   - kodi-inputstream-smoothstream
     - kodi-peripheral-joystick
     - kodi-pvr-argustv
     - kodi-pvr-demo
